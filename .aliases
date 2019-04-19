@@ -149,3 +149,7 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Use python 3 instead python 2
+alias python="python3"
+alias pip="pip3"

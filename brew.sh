@@ -22,6 +22,7 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed
+brew install z
 
 # Install last version of Bash.
 brew install bash
@@ -54,7 +55,6 @@ brew install openssh
 # Install other useful binaries.
 brew install git
 brew install tree
-brew install z
 
 # Remove outdated versions from the cellar.
 brew cleanup
